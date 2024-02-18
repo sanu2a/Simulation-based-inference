@@ -34,27 +34,12 @@ Pour plus de détails, voir un résumé scientifique plus poussé dans `atreyu_s
 # Description du modèle biologique
 ![description du modèle biologique de croissance avec mutation](model.png)
 
-# Propositions générales de taches à réaliser
+# Taches  réalisée
 
-Tout ceci peut être adapté à vos envies, et vous pouvez vouloir proposer d'autres choses. Tenez moi au courant des taches que vous choisissez d'aborder (par exemple en ouvrant une issue) et de vos propositions techniques.
 
 - Développement d’une méthode d'ABC (calcul bayésien approché) pour estimer le taux de mutation lorsque les autres paramètres (paramètres écologiques) sont connus à partir de données expérimentales, en s'appuyant sur le simulateur déjà développé.
 
 - Extension de cette méthode à l'inférence simultanée du taux de mutation et de paramètres écologiques inconnus. Le nombre de populations expérimentales nécessaires à l'inférence simultanée de deux paramètres ou plus et l'identifiabilité (ou non) de chacun des paramètres seront d'abord étudiés par des simulations.
 
-- (exploratoire) Extension du simulateur à l'étude de dynamiques plus complexes (eg plusieurs catégories de mutants)
 
-- (très exploratoire) Amélioration de l’estimateur ABC en remplaçant le simulateur direct par un modèle d’apprentissage profond (modèle de substitution – surrogate model – qui sont utilisés de manière croissante en physique mais pas encore popularisés en biologie) entraîné sur un grand jeu de données de simulation.
-
-# Premier data challenge pour prise en main du projet
-
-Dans `datachallenge1`, 384 simulations ont été réalisées avec les paramètres suivants : 
-- taille de population initiale 10
-- taille de population finale 1e7
-- taux de mort 0.3
-- pas d'effet sur la fitness (valeur du paramètre 1)
-- pas d'echantillonage (valeur du paramètre 1)
-- taux de mutation inconnu : **pouvez-vous le retrouver ?**
-
-On regarde ensemble ce que vous avez trouvé le 28 février, mais commitez vos propositions (code, visualisations, etc) avant sans attendre cette date. N'oubliez pas de documenter votre démarche.
 
