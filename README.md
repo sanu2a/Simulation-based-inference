@@ -34,7 +34,7 @@ Pour plus de détails, voir un résumé scientifique plus poussé dans `atreyu_s
 # Description du modèle biologique
 ![description du modèle biologique de croissance avec mutation](model.png)
 
-# Taches  réalisée
+# Taches  réalisées
 
 
 - Développement d’une méthode d'ABC (calcul bayésien approché) pour estimer le taux de mutation lorsque les autres paramètres (paramètres écologiques) sont connus à partir de données expérimentales, en s'appuyant sur le simulateur déjà développé.
